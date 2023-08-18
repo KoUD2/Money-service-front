@@ -1,0 +1,65 @@
+@import '@/assets/styles/variables';
+
+.colors {
+	li {
+		margin-bottom: 5px;
+	}
+
+	li:last-child {
+		margin-bottom: 0px !important;
+	}
+
+	div {
+		width: 172px;
+		height: 12px;
+		border-radius: 2px;
+		display: inline-block;
+	}
+
+	input {
+		position: absolute;
+		left: 21px;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	span {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		border: 2px solid $main-color;
+		background-color: white;
+		border-radius: 3px;
+		margin-right: 6.5px;
+		transition: all 0.2s ease-in-out;
+		cursor: pointer;
+	}
+
+	input:checked + span {
+		background-color: $main-color;
+	}
+
+	div:hover {
+		cursor: pointer;
+	}
+}
+
+.minPriority {
+	background-color: $lightGrey;
+}
+
+.highPriority {
+	background-color: $lightGold;
+}
+
+.fourthPriority {
+	background-color: $lightGreen;
+}
+
+.thirdPriority {
+	background-color: $lightBlue;
+}
+
+.secondPriority {
+	background-color: $lightViolet;
+}

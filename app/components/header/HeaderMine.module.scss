@@ -1,0 +1,10 @@
+@import '@/assets/styles/variables';
+
+.header {
+	position: relative;
+	width: 100%;
+	height: 48px;
+	background-color: $main-color;
+	display: flex;
+	align-items: center;
+}

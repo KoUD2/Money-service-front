@@ -1,0 +1,17 @@
+@import '@/assets/styles/variables';
+
+.attentionButton {
+	margin-left: 50px;
+	width: 172px;
+	height: 32px;
+	background-color: white;
+	border-radius: 25px;
+	border: none;
+}
+.attentionLink {
+	color: $main-color;
+	font-size: 20px;
+	font-weight: $weight;
+	font-family: $font;
+	text-decoration: none;
+}

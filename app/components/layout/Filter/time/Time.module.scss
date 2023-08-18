@@ -1,0 +1,45 @@
+@import '@/assets/styles/variables';
+
+.text {
+	input {
+		position: absolute;
+		left: 21px;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	span {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		vertical-align: -1.5px;
+		border: 2px solid $main-color;
+		background-color: white;
+		border-radius: 3px;
+		margin-right: 5px;
+		transition: all 0.2s ease-in-out;
+		cursor: pointer;
+	}
+
+	input:checked + span {
+		background-color: $main-color;
+	}
+
+	p:hover {
+		color: $blackGold;
+	}
+
+	p {
+		display: inline-block;
+		font-size: 18px;
+		font-weight: $weight;
+		color: $main-color;
+		margin-bottom: 5px;
+		cursor: pointer;
+		user-select: none;
+
+		&:last-child {
+			margin-bottom: 0px !important;
+		}
+	}
+}
