@@ -1,4 +1,5 @@
 import { FC } from 'react'
+
 import styles from './Time.module.scss'
 
 const Time: FC = () => {
@@ -6,27 +7,27 @@ const Time: FC = () => {
 		<ul className={styles.text}>
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>ДО 5 МИН</p>
+			<h5>ДО 5 МИН</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>ДО ЧАСА</p>
+			<h5>ДО ЧАСА</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>ДО 2 ЧАСОВ</p>
+			<h5>ДО 2 ЧАСОВ</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>ДО ДНЯ</p>
+			<h5>ДО ДНЯ</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>ДО НЕДЕЛИ</p>
+			<h5>ДО НЕДЕЛИ</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>ДРУГОЕ</p>
+			<h5>ДРУГОЕ</h5>
 		</ul>
 	)
 }

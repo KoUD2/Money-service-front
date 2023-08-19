@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,700;0,800;0,900;1,700&display=swap');
 @import './variables';
 @import './reset';
 
@@ -9,7 +9,37 @@ body {
 }
 
 h1 {
-	font-size: 23px;
-	color: white;
-	font-weight: $weight;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 800;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h6 {
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
 }

@@ -2,7 +2,8 @@
 
 .colors {
 	li {
-		margin-bottom: 5px;
+		margin-bottom: 10px;
+		height: 19px;
 	}
 
 	li:last-child {
@@ -10,27 +11,27 @@
 	}
 
 	div {
-		width: 172px;
-		height: 12px;
-		border-radius: 2px;
+		width: 187px;
+		height: 15px;
+		border-radius: 3px;
 		display: inline-block;
 	}
 
 	input {
 		position: absolute;
-		left: 21px;
+		left: 25px;
 		opacity: 0;
 		cursor: pointer;
 	}
 
 	span {
 		display: inline-block;
-		width: 10px;
-		height: 10px;
+		width: 15px;
+		height: 15px;
 		border: 2px solid $main-color;
 		background-color: white;
-		border-radius: 3px;
-		margin-right: 6.5px;
+		border-radius: 5px;
+		margin-right: 6px;
 		transition: all 0.2s ease-in-out;
 		cursor: pointer;
 	}
@@ -46,20 +47,25 @@
 
 .minPriority {
 	background-color: $lightGrey;
+	border: 2px solid $lightGrey;
 }
 
 .highPriority {
 	background-color: $lightGold;
+	border: 2px solid $lightGold;
 }
 
 .fourthPriority {
 	background-color: $lightGreen;
+	border: 2px solid $lightGreen;
 }
 
 .thirdPriority {
 	background-color: $lightBlue;
+	border: 2px solid $lightBlue;
 }
 
 .secondPriority {
 	background-color: $lightViolet;
+	border: 2px solid $lightViolet;
 }

@@ -7,15 +7,15 @@ const Place: FC = () => {
 		<ul className={styles.text}>
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>СОЦСЕТИ</p>
+			<h5>СОЦСЕТИ</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>САЙТЫ</p>
+			<h5>САЙТЫ</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<p>ПРИЛОЖЕНИЯ И ИГРЫ</p>
+			<h5>ПРИЛОЖЕНИЯ И ИГРЫ</h5>
 		</ul>
 	)
 }
