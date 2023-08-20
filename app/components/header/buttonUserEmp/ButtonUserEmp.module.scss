@@ -1,28 +1,29 @@
 @import '@/assets/styles/variables';
 
 .button {
-	width: 306px;
-	height: 32px;
+	width: 249px;
+	height: 33px;
 	background-color: white;
-	border-radius: 25px;
+	border-radius: 500px;
 	display: flex;
 	align-items: center;
-	margin-left: 20%;
+	margin-left: 80px;
+	justify-content: space-between;
 }
 
 .user {
 	color: white;
 	font-size: 20px;
-	font-weight: $weight;
+	font-weight: 900;
 	font-family: $font;
 	text-decoration: none;
 }
 
 .employer {
-	margin-left: 48px;
+	margin-left: 19px;
 	color: $main-color;
 	font-size: 20px;
-	font-weight: $weight;
+	font-weight: 900;
 	font-family: $font;
 	text-decoration: none;
 }
@@ -31,9 +32,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-left: 53px;
+	margin-right: 3px;
 	background-color: $main-color;
-	width: 136px;
-	height: 26px;
+	width: 129px;
+	height: 27px;
 	border-radius: 25px;
+	cursor: pointer;
 }

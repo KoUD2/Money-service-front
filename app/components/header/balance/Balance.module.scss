@@ -1,0 +1,34 @@
+@import '@/assets/styles/variables';
+
+.containerBalance {
+	width: 180px;
+	height: 33px;
+	background-color: white;
+	border-radius: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	h4 {
+		color: $main-color;
+		margin-left: 19px;
+	}
+
+	button {
+		width: 90px;
+		height: 27px;
+		margin-right: 3px;
+		border-radius: 500px;
+		border: none;
+		background-color: $main-color;
+		cursor: pointer;
+
+		.balanceLink {
+			color: white;
+			font-weight: 900;
+			font-size: 20px;
+			text-decoration: none;
+			font-family: $font;
+		}
+	}
+}
