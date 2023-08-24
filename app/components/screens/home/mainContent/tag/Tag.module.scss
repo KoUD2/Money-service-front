@@ -1,0 +1,13 @@
+@import '@/assets/styles/variables';
+
+.tagDiv {
+	padding: 10px 21px;
+	background-color: $blackGold;
+	display: inline-block;
+	border-radius: 500px;
+	margin-right: 10px;
+
+	h6 {
+		color: white;
+	}
+}

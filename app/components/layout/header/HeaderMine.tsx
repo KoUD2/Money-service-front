@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FC } from 'react'
 
+import LogoProfile from '@/assets/images/profile-logo.svg'
+
 import styles from './HeaderMine.module.scss'
 import Balance from './balance/Balance'
 import ButtonAttention from './buttonAttention/ButtonAttention'
@@ -32,7 +34,12 @@ const HeaderMine: FC = () => {
 				<Balance />
 				<div className={styles.profile}>
 					<h4 className={styles.nick}>konstud</h4>
-					<Image src="/" alt="Иконка профиля" width={33} height={33}></Image>
+					<Image
+						src={LogoProfile}
+						alt="Иконка профиля"
+						width={33}
+						height={33}
+					></Image>
 				</div>
 			</div>
 		</div>

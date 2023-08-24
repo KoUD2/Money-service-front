@@ -9,19 +9,19 @@ import Time from './time/Time'
 const Filter: FC = () => {
 	return (
 		<div className={styles.main}>
-			<h1>ТИП ЗАДАНИЯ:</h1>
+			<h1>тип задания:</h1>
 			<div className={styles.background}>
 				<Action />
 			</div>
-			<h1>СФЕРА ИНТЕРЕСОВ:</h1>
+			<h1>сфера интересов:</h1>
 			<div className={styles.background}>
 				<Place />
 			</div>
-			<h1>ВРЕМЯ:</h1>
+			<h1>время:</h1>
 			<div className={styles.background}>
 				<Time />
 			</div>
-			<h1>УРОВНИ:</h1>
+			<h1>уровни:</h1>
 			<div className={styles.background}>
 				<Priority />
 			</div>

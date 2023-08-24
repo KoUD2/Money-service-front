@@ -7,71 +7,71 @@ const Action: FC = () => {
 		<ul className={styles.text}>
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ЛАЙК</h5>
+			<h5>лайк</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>РЕПОСТ</h5>
+			<h5>репост</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>КОММЕНТАРИЙ</h5>
+			<h5>комментарий</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ПОДПИСКА</h5>
+			<h5>подписка</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>СОЗДАНИЕ КОНТЕНТА</h5>
+			<h5>создвние контента</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ПРИВЛЕЧЕНИЕ ПОЛЬЗОВАТЕЛЕЙ</h5>
+			<h5>привлечение пользователей</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>СТАТЬЯ</h5>
+			<h5>статья</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ОБЗОР</h5>
+			<h5>обзор</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ПЕРЕВОД</h5>
+			<h5>перевод</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>КООПЕРАЙТИНГ</h5>
+			<h5>кооперайтинг</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>КОРРЕКЦИЯ ТЕКСТА</h5>
+			<h5>коррекция текста</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>АУДИО И ВИДЕО</h5>
+			<h5>аудио и видео</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ОТЗЫВ</h5>
+			<h5>отзыв</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ПОКУПКА</h5>
+			<h5>покупка</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>СКАЧИВАНИЕ</h5>
+			<h5>скачивание</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ГЕЙМПЛЕЙ</h5>
+			<h5>геймплей</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ДРУГОЕ</h5>
+			<h5>другое</h5>
 		</ul>
 	)
 }

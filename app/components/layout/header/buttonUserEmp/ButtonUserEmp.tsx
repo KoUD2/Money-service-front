@@ -1,5 +1,5 @@
-import { FC } from 'react'
 import Link from 'next/link'
+import { FC } from 'react'
 
 import styles from './ButtonUserEmp.module.scss'
 
@@ -7,11 +7,11 @@ const ButtonUserEmp: FC = () => {
 	return (
 		<div className={styles.button}>
 			<Link href={'/'} className={styles.employer}>
-				ЗАКАЗЧИК
+				заказчик
 			</Link>
 			<div className={styles.section}>
 				<Link href={'/'} className={styles.user}>
-					ПОЛЬЗОВАТЕЛЬ
+					пользователь
 				</Link>
 			</div>
 		</div>

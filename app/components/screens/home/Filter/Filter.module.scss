@@ -1,6 +1,4 @@
-$main-color: #f7781c;
-$bar-width: 20%;
-
+@import '@/assets/styles/variables';
 // .main {
 // 	margin-top: 20px;
 // 	margin-left: 112px;
@@ -10,20 +8,17 @@ $bar-width: 20%;
 // }
 
 .main {
-	margin-top: 20px;
 	position: relative;
 	top: 0;
 	bottom: 0;
 	padding: 20px 12px;
-	// overflow-y: scroll;
-	// width: $bar-width;
-	width: 244px;
-	// max-width: 350px;
-	margin-left: 112px;
+	width: 254px;
 	background-color: $main-color;
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
+	margin-top: 20px;
+	height: 1277px;
 
 	h1:first-child {
 		margin-top: 0px !important;
@@ -32,6 +27,7 @@ $bar-width: 20%;
 	h1 {
 		color: white;
 		margin-top: 20px;
+		text-transform: uppercase;
 	}
 }
 

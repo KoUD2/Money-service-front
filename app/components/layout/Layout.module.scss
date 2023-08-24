@@ -1,11 +1,27 @@
-.layout {
-	display: flex;
-	position: relative;
-	margin-bottom: 20px;
+// .mainLayout {
+// 	margin: 0 auto;
+// 	width: 1698px;
+// 	margin-top: 20px;
 
-	.center {
-		min-height: 100%;
-		padding: 2.75rem;
-		margin: 0 20%;
-	}
-}
+// 	.layout {
+// 		display: flex;
+// 		position: relative;
+// 		margin-bottom: 20px;
+
+// 		.center {
+// 			min-height: 100%;
+// 			// padding: 2.75rem;
+// 			// margin: 0 20%;
+// 			width: 1076px;
+// 			display: flex;
+// 			flex-wrap: wrap;
+// 			justify-content: space-between;
+// 			padding: 0 21px;
+// 		}
+
+// 		.events {
+// 			display: flex;
+// 			flex-direction: column;
+// 		}
+// 	}
+// }

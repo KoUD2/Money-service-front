@@ -7,27 +7,27 @@ const Time: FC = () => {
 		<ul className={styles.text}>
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ДО 5 МИН</h5>
+			<h5>до 5 мин</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ДО ЧАСА</h5>
+			<h5>до часа</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ДО 2 ЧАСОВ</h5>
+			<h5>до 2 часов</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ДО ДНЯ</h5>
+			<h5>до дня</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ДО НЕДЕЛИ</h5>
+			<h5>до недели</h5>
 			<br />
 			<input type="checkbox" name="" value=""></input>
 			<span></span>
-			<h5>ДРУГОЕ</h5>
+			<h5>другое</h5>
 		</ul>
 	)
 }
