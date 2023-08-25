@@ -36,7 +36,7 @@ const Auth: FC = () => {
 	}
 
 	return (
-		<Meta title="Авторизация" description="wecwe">
+		<Meta title="Авторизация" description="Станьте частью успешного коммьюнити">
 			<section></section>
 		</Meta>
 	)

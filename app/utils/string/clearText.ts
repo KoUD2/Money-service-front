@@ -10,7 +10,11 @@ export const onlyText = (
 			''
 		)
 
-	if (limit) result = result.slice(0, limit) + '...'
+	if (result.length <= limit && limit) {
+		result
+	} else if (limit) {
+		result = result.slice(0, limit) + '...'
+	}
 
 	return result
 }

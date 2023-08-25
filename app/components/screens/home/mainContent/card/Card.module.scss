@@ -8,6 +8,7 @@
 	padding: 22px 12px 22px 12px;
 	position: relative;
 	margin-top: 20px;
+	margin-right: 18px;
 
 	.heading {
 		display: flex;
@@ -41,13 +42,13 @@
 		p {
 			color: white;
 			text-transform: uppercase;
-			margin-top: 6px;
-			margin-left: 14px;
+			// margin-top: 6px;
+			margin: 14px;
 		}
 
-		p:first-child {
-			margin-top: 0 !important;
-		}
+		// p:first-child {
+		// 	margin-top: 0 !important;
+		// }
 
 		ol {
 			li {
