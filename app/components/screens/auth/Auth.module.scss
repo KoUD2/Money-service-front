@@ -1,0 +1,89 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	width: 1698px;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+
+	.container {
+		width: 573px;
+		height: 914px;
+		padding-top: 17px;
+
+		.logo {
+			color: $main-color;
+		}
+
+		form {
+			margin-top: 123px;
+
+			h1 {
+				font-size: 70px;
+				text-transform: uppercase;
+				color: $main-color;
+			}
+
+			.button {
+				margin-top: 52px;
+			}
+
+			.linkMine {
+				color: white;
+				font-size: 50px;
+				font-weight: 900;
+				text-decoration: none;
+				font-family: $font;
+			}
+		}
+
+		.confidence {
+			margin-top: 52px;
+			position: relative;
+
+			input {
+				position: absolute;
+				top: -3px;
+				left: -3.5px;
+				opacity: 0;
+				cursor: pointer;
+				width: 19px;
+				height: 19px;
+			}
+
+			span {
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				vertical-align: -3.5px;
+				border: 2px solid $main-color;
+				background-color: white;
+				border-radius: 5px;
+				margin-right: 6px;
+				transition: all 0.2s ease-in-out;
+				cursor: pointer;
+			}
+
+			input:checked + span {
+				background-color: $main-color;
+			}
+
+			h4 {
+				color: $main-color;
+				display: inline-block;
+				user-select: none;
+				line-height: 96.5%;
+				text-transform: uppercase;
+			}
+		}
+
+		> div {
+			h4 {
+				text-transform: uppercase;
+				color: $main-color;
+			}
+		}
+	}
+}

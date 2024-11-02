@@ -14,7 +14,6 @@ const Tag: FC<{ parameters: object[] }> = ({ parameters }) => {
 	// 	}
 	// }
 
-	console.log(typeof parameters.what)
 	return (
 		<>
 			{parameters.what

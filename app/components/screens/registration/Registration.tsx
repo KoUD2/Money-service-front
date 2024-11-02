@@ -1,6 +1,5 @@
 import Logo from 'header/logo/Logo'
 import Image from 'next/image'
-import { useRouter } from 'next/navigation'
 import { FC, useState } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
 
@@ -11,26 +10,20 @@ import { useAuth } from '@/hooks/useAuth'
 
 import AuthFields from '@/shared/user/AuthFields'
 
-import FirstPoster from '@/assets/images/login-register/poster-login.svg'
+import FirstPoster from '@/assets/images/login-register/poster1-login.svg'
 
 import { Meta } from '@/utils/meta/Meta'
 
-import styles from './Auth.module.scss'
-import { IAuthInput } from './auth.interface'
-import { useAuthRedirect } from './useAuthRedirect'
+import styles from '../auth/Auth.module.scss'
+import { IAuthInput } from '../auth/auth.interface'
+import { useAuthRedirect } from '../auth/useAuthRedirect'
 
-const Auth: FC = () => {
+const Registration: FC = () => {
 	useAuthRedirect()
-	const { push } = useRouter()
+
 	const { isLoading } = useAuth()
 
 	const [type, setType] = useState<'login' | 'register'>('login')
-
-	const Home = () => {
-		push('/registration')
-
-		return <p></p>
-	}
 
 	const {
 		register: RegisterInput,
@@ -45,9 +38,7 @@ const Auth: FC = () => {
 
 	const onSubmit: SubmitHandler<IAuthInput> = (data) => {
 		if (type === 'login') login(data)
-		else if (type === 'register') {
-			register(data)
-		}
+		else if (type === 'register') register(data)
 
 		reset()
 	}
@@ -59,11 +50,11 @@ const Auth: FC = () => {
 					<div></div>
 					<Logo className={styles.logo} />
 					<form onSubmit={handleSubmit(onSubmit)}>
-						<h1>войти в аккаунт</h1>
+						<h1>присоединяйся</h1>
 						<AuthFields register={RegisterInput} formState={formState} />
 						<Button
 							type="submit"
-							onClick={() => Home()}
+							onClick={() => setType('register')}
 							disabled={isLoading}
 							className={styles.button}
 						>
@@ -89,4 +80,4 @@ const Auth: FC = () => {
 	)
 }
 
-export default Auth
+export default Registration

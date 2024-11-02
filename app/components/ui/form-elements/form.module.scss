@@ -1,0 +1,75 @@
+@import '@/assets/styles/variables';
+
+.button {
+	width: 573px;
+	height: 72px;
+	background-color: $main-color;
+	color: white;
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: $font;
+	border: 4px solid $main-color;
+	border-radius: 500px;
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background-color: white;
+		color: $main-color;
+	}
+}
+
+.common {
+	position: relative;
+	border-bottom: 2px solid $main-color;
+	transition: color 0.3s ease-in-out;
+
+	// @apply relative border-b border-gray-600 transition-colors focus-within:border-primary;
+	> label {
+		display: block;
+
+		> input {
+			font-weight: 900;
+		}
+
+		input::-moz-input-placeholder {
+			color: $main-color;
+			font-size: 30px;
+			text-transform: uppercase;
+			opacity: 0.7;
+		}
+
+		input::-webkit-input-placeholder {
+			color: $main-color;
+			font-size: 30px;
+			text-transform: uppercase;
+			opacity: 0.7;
+		}
+	}
+}
+
+.field {
+	margin-bottom: 8px;
+
+	input {
+		outline: none;
+		border: none;
+		background-color: transparent;
+		color: $main-color;
+		width: 100%;
+		font-family: $font;
+		font-size: 30px;
+	}
+}
+
+.error {
+	position: absolute;
+	bottom: -24px;
+	left: 0;
+	font-size: 20px;
+	width: 100%;
+	color: $blackGold;
+	font-family: $font;
+	font-weight: 900;
+	text-transform: uppercase;
+}
